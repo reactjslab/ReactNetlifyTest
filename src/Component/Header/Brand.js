@@ -11,7 +11,6 @@ const Brand=() =>{
         <Link to="/" className="nounder">chandra marazzi</Link></h6>
       <nav className="my-2 my-md-0 mr-md-3">
       <NavLink className="navel p-3 text-dark active" exact to ="/" >Home</NavLink>
-      <NavLink className="navel p-3 text-dark" to="/">Works</NavLink>
       <NavLink className="navel p-3 text-dark" to="/">Contact</NavLink>
       <NavLink className="navel p-3 text-dark" to="/">About</NavLink>
        </nav>
