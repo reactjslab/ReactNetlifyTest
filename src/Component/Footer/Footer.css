@@ -1,0 +1,7 @@
+.footermain{
+    display:grid;
+    height:70vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-image: linear-gradient(to bottom left,#1d1e1d9c ,#1c1a1a);
+}
