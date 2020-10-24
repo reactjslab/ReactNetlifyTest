@@ -1,0 +1,20 @@
+.main{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0;
+    padding:0;  
+    background-image: linear-gradient(to bottom right,#98e8099c ,#ee1010);
+}
+.name{
+    font-weight: 600;
+    font-size:50px;
+    color:#351a42;
+    font-family: 'Pacifico', cursive;
+}
+.heart{
+    height:50vh;
+    width:50vw
+}

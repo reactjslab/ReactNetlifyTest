@@ -1,0 +1,45 @@
+.navBrand{
+    font-family: 'Pacifico', cursive;
+    display:flex;
+    flex-direction: column;
+    color:#346da7;
+    font-size: 50px;
+    font-weight: 1000;
+        
+}
+.navel{
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    font-size:18px;  
+}
+.navel:hover{
+    text-decoration: none;
+}
+.nounder:hover{
+    text-decoration: none;
+}
+.active{
+    border-bottom: 1px solid #346da7;
+    
+}
+.navbar-custom {
+    background-color: #ff5500;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+
