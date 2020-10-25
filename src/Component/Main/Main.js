@@ -6,7 +6,7 @@ import Heart from './undraw_love_xfcv.svg'
         return (
             <div className="main">
                 <img className="heart" src={Heart} alt="heart"/>
-                <h1 className="name">Chandra devi</h1>
+                <h1 className="name">Chandra</h1>
             </div>
         )
     }
