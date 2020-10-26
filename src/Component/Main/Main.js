@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css'
 import Heart from './undraw_love_xfcv.svg'
+import Chandra from './chandra.jpg'
  class Main extends React.Component {
     render() {
         return (
@@ -11,7 +12,7 @@ import Heart from './undraw_love_xfcv.svg'
 
                 </div>
                 <div className="face">
-
+                    <img src={Chandra} alt="chandra"/>
                 </div>
 
                 <div className="social">
