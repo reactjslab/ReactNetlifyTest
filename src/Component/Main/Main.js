@@ -8,6 +8,7 @@ import Heart from './undraw_love_xfcv.svg'
 
                 <div className="heartP">
                 <img className="heart" src={Heart} alt="heart"/>
+
                 </div>
                 <div className="face">
 
@@ -22,6 +23,9 @@ import Heart from './undraw_love_xfcv.svg'
                 <div className="name">
                 <h1 >Chandra devi</h1>
                 </div>
+
+                <h1 className="name">Chandra</h1>
+
             </div>
         )
     }
