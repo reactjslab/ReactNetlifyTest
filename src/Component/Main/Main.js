@@ -12,7 +12,9 @@ import Chandra from './chandra.jpg'
 
                 </div>
                 <div className="face">
-                    <img src={Chandra} alt="chandra"/>
+                    <div className="cover">
+                    <img className="imgg" src={Chandra} alt="chandra"/>
+                    </div>
                 </div>
 
                 <div className="social">

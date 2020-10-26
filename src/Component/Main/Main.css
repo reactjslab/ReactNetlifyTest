@@ -18,11 +18,23 @@
     justify-content: center;
 
 }
-.face img{
+.cover{
+    height: 50vh;
+    border-radius: 2px; 
+    background-color: white;
+    transform:rotate(-10deg)
+}
+.imgg{
     height: 50vh;
     border:5px solid white;
     border-radius: 2px;
     box-shadow:17px 1px 17px 2px #393535;
+    transition:all .3s linear;
+    transform:rotate(10deg)
+}
+.imgg:hover{
+    
+    transform:rotate(20deg)
 }
 .name{
     display:flex;
