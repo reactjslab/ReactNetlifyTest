@@ -5,8 +5,23 @@ import Heart from './undraw_love_xfcv.svg'
     render() {
         return (
             <div className="main">
+
+                <div className="heartP">
                 <img className="heart" src={Heart} alt="heart"/>
-                <h1 className="name">Chandra devi</h1>
+                </div>
+                <div className="face">
+
+                </div>
+
+                <div className="social">
+                   <a target="blank" href="https://facebook.com"> <i className="fa fa-facebook" style={{fontSize:"34px"}}></i></a>
+                   <a target="blank" href="https://instagram.com"><i className="fa fa-instagram" style={{fontSize:"34px"}}></i></a>
+                   <a target="blank" href="https://linkedin.com"> <i className="fa fa-linkedin" style={{fontSize:"34px"}}></i></a>
+                   <a target="blank" href="https://twitter.com"> <i className="fa fa-twitter" style={{fontSize:"34px"}}></i></a>
+                </div>
+                <div className="name">
+                <h1 >Chandra devi</h1>
+                </div>
             </div>
         )
     }

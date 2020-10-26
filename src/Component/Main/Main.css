@@ -1,20 +1,108 @@
 .main{
-    height:90vh;
+    display:grid;
+    grid-template-areas: 
+    "heart face"
+    "social name";
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    margin:0;
+    padding:0; 
+    height:90vh; 
+    background-image: linear-gradient(to bottom right,#98e8099c ,#ee1010);
+}
+.face{
+    display:flex;
+    grid-area:face;
+    grid-column-end:5;
+
+}
+.name{
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin:0;
-    padding:0;  
-    background-image: linear-gradient(to bottom right,#98e8099c ,#ee1010);
+    
+    grid-area:name;
+    grid-column-end: 5;
 }
-.name{
+.name h1{
     font-weight: 600;
     font-size:50px;
     color:#351a42;
     font-family: 'Pacifico', cursive;
 }
 .heart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:heart;
     height:50vh;
-    width:50vw
+    width:50vw;
 }
+.heartP{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:social;
+    
+}
+.social >a > i{
+    color:#241d1d;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: .3s;
+    text-shadow: 5px 5px 10px;
+}
+.social >a> i:hover{
+    color:white;   
+}
+
+.social >a{
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    .main{
+        display:grid;
+        grid-template-areas:"heart"
+        "face"
+        "name"
+        "social";
+        grid-template-columns:1fr;
+        grid-template-rows: 2fr 3fr 1fr 1fr;
+        align-items: center;
+        
+    }
+    .name{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size:50px;
+        color:#351a42;
+        font-family: 'Pacifico', cursive;
+        grid-area:name;
+        grid-column-end: 5;
+    }
+  }
+  @media screen and (max-width: 850px) and (min-width: 600px)  {
+
+    .name{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size:35px;
+        color:#351a42;
+        font-family: 'Pacifico', cursive;
+        grid-area:name;
+        grid-column-end: 5;
+    }
+    .social > a > i{
+        margin-right: 20px;
+    }
+  }
