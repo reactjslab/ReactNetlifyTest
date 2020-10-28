@@ -1,7 +1,18 @@
 .footermain{
     display:grid;
-    height:70vh;
+    height:20vh;
+    grid-template-areas: 
+    " "
+    "credit";
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-image: linear-gradient(to bottom left,#1d1e1d9c ,#1c1a1a);
+}
+.credit{
+    grid-area: credit;
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    
+    
 }
