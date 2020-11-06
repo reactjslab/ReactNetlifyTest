@@ -23,6 +23,7 @@
     border-radius: 2px; 
     background-color: white;
     transition:all .3s linear;
+    transform:rotate(-10deg)
 }
 .imgg{
     height: 50vh;
@@ -30,15 +31,16 @@
     border-radius: 2px;
     box-shadow:17px 1px 17px 2px #393535;
     transition:all .3s linear;
+    transform:rotate(10deg)
     
 }
 .imgg:hover{
-    transform:rotate(20deg);
     filter:grayscale();
+    transform: scaleX(2px);
 }
 .cover:hover{
+    transform: scale(2px);
     
-    transform:rotate(-20deg)
 }
 .name{
     display:flex;
@@ -66,7 +68,21 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction:column;
+    margin-left:5vw;
     
+}
+.iam{
+    font-family: 'Roboto', sans-serif;
+    font-size:36px;
+    font-weight:600;
+    text-shadow:11px 7px 8px #534e4e;
+}
+.iamp{
+    font-family: 'Roboto', sans-serif;
+    font-size:24px;
+    font-weight:600;
+    text-shadow:11px 7px 8px #534e4e;
 }
 .social{
     display:flex;
