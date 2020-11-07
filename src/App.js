@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import Main from './Component/Main/Main'
-import Header from './Component/Header/Header'
-import Footer from './Component/Footer/Footer'
+import Contact from './Component/Contactme/Contact'
+import About from './Component/About/About'
+import Error from './Component/Error/Error'
 import Preloader from './Component/Preloader/Preloader'
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter ,Route,Switch} from 'react-router-dom'
 
 class App extends React.Component{
   constructor(){
@@ -19,10 +20,14 @@ componentDidMount(){
   render(){
   return (
     <>
-    {this.state.p?<BrowserRouter>
-    <Header/>
-    <Main/>
-    <Footer/>
+    {this.state.p?
+    <BrowserRouter>
+    <Switch>
+    <Route exact path='/' component={Main} />
+    <Route exact path='/contact' component={Contact}/>
+    <Route exact path='/about' component={About}/>
+    <Route component={Error}/>
+    </Switch>
     </BrowserRouter>:
     <Preloader/>
     
