@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     min-height:90vh;
+    background-image: linear-gradient(to bottom right,#98e8099c ,#ee1010);
 }
 .cform{
     height:60vh;
@@ -29,6 +30,7 @@ input{
     color: #333;
     margin-bottom:15px;
     padding-bottom: 5px;
+    background:transparent;
     text-shadow: 10px 10px 10px #333;
     transition: all .5s cubic-bezier(.65,.05,.36,1);
 }
@@ -43,6 +45,7 @@ textarea{
     color: #333;
     margin-bottom:15px;
     padding-bottom: 5px;
+    background:transparent;
     transition: all .5s cubic-bezier(.65,.05,.36,1);
 }
 input:active,input:focus{
