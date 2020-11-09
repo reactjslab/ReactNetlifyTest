@@ -10,7 +10,7 @@ const Brand=() =>{
         <Link to="/" className="nounder">chandra marazzi</Link></h6>
       <nav className="my-2 my-md-0 mr-md-3">
       <NavLink className="navel p-3 text-dark" exact to ="/" >Home</NavLink>
-      <NavLink className="navel p-3 text-dark" to="/about">About</NavLink>
+      <NavLink className="navel p-3 text-dark" to="/about">About Me</NavLink>
       <NavLink className="navel p-3 text-dark" to="/contact">Contact</NavLink>
       </nav>
      
