@@ -24,8 +24,7 @@ function Contactform() {
     return (
         <div className="formdiv">
             {flip?<h1>submitted</h1>:
-            <form className="cform" >
-                
+            <form className="cform" netlify>
                 <label className="labelup" htmlFor="name">Name</label>
                 <input ref={nameref} className="" placeholder="" id="name" type="text" required/>
                 <label className="labelup" htmlFor="email">Email</label>
