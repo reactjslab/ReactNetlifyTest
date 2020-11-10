@@ -14,6 +14,7 @@ import Chandra from './chandra.jpg'
                     <div className="heartTitle">
                     <h1 className="iam">Hi i am candra</h1>
                     <p className="iamp">i am a japanese language teacher based in Bali Indonesia </p>   
+                    <button style={{float:"right"}} className="btn btn-light">read More</button>
                     </div>
                 </div>
                 <div className="face">

@@ -22,12 +22,10 @@
     text-decoration: none;
 }
 .active{
-    border-bottom: 3px solid #346da7;
-    color:red;
-    
+    border-bottom: 3px solid #346da7;    
 }
 .navbar-custom {
-    background-image: linear-gradient(to right,#a0fa009c ,#b912128f);
+    background-color:transparent;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
