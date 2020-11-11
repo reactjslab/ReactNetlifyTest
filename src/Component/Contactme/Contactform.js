@@ -6,10 +6,11 @@ function Contactform() {
     const messageref=React.useRef(null)
     const [formdata,formfunc]=React.useState({name:'',email:'',message:''})
     const [flip,flipfun] = React.useState(false)
+    const [err,errf]=React.useState(false)
     function thankyou(e){
         e.preventDefault()
         if(nameref.current.value==='' & nameref.current.value==='' & nameref.current.value==='') 
-            console.log("empty")
+            errf(true)
         else{
             formfunc({name:nameref.current.value,email:emailref.current.value, message:messageref.current.value})
             
@@ -22,9 +23,23 @@ function Contactform() {
             nameref.current.focus()
         })
     return (
+        <>
+        
+
+
         <div className="formdiv">
+        {err? <div className="alert alert-danger" role="alert">
+        <strong>oh !</strong> You should add all those fields below.
+        <button onClick={()=>errf(false)} type="button" className="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>:null
+       }
             {flip?<h1>submitted</h1>:
             <form className="cform" netlify>
+
+                
+
                 <label className="labelup" htmlFor="name">Name</label>
                 <input ref={nameref} className="" placeholder="" id="name" type="text" required/>
                 <label className="labelup" htmlFor="email">Email</label>
@@ -35,6 +50,7 @@ function Contactform() {
             </form>
         } 
         </div>
+        </>
     )
 }
 export default Contactform
