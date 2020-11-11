@@ -1,18 +1,127 @@
 .footermain{
     display:grid;
-    height:20vh;
-    grid-template-areas: 
-    " "
-    "credit";
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-image: linear-gradient(to bottom left,#1d1e1d9c ,#1c1a1a);
+    height:25vh;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    background-color:#808080;
+    grid-template-areas: "e f g h"
+    "a b c d"
+    "y";
+    
+}
+.red{
+    grid-area:e;
+    background-color: red;
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+.green{
+    grid-area:f;
+    background-color: green;
+    grid-column: 2/3;
+    grid-row:1/2;
+}
+.yellow{
+    grid-area:g;
+    background-color: yellow;
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+.purple{
+    grid-area:h;
+    background-color: purple;
+    grid-column: 4/5;
+    grid-row:1/2;
+}
+.cc{
+    grid-area:d;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    grid-row:1/7; 
+    display: grid;
+    align-items: center;
+}
+.address{
+    grid-area:b;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    grid-row:1/7;
+    display: grid;
+    align-items: center;
+}
+.lets{
+    grid-area:a;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    grid-row:1/7;
+    display: grid;
+    align-items: center;
+
+}
+.ct{
+    grid-area:c;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row:1/7;
+    display: grid;
+    align-items: center;
+
 }
 .credit{
-    grid-area: credit;
+    grid-area:y;
     background-color: red;
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .footermain{
+        height:20vh;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 2fr 2fr 1fr;
+        grid-template-areas: "a b"
+                             "c d";
+        
+    }
+    .cc{
+        grid-area:d;
+        grid-column-start: 2;
+        grid-column-end: 3; 
+        grid-row:2/3;
+        background-color: blue;
+    }
+    .address{
+        grid-area:b;
+        grid-column-start: 2;
+        grid-column-end: 3; 
+        grid-row:1/2;
+        background-color: green;
+    }
+    .lets{
+        grid-area:a;
+        grid-column-start: 1;
+        grid-column-end: 2; 
+        grid-row:1/2;
+        background-color: yellow;
     
+    }
+    .ct{
+        grid-area:c;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row:2/3;
+        background-color: purple; 
     
+    }
+    .credit{
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+    }
 }

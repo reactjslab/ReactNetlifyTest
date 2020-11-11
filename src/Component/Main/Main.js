@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Main.css'
 import Header from './../Header/Header'
 import Footer from './../Footer/Footer'
@@ -13,8 +14,9 @@ import Chandra from './chandra.jpg'
                 <div className="heartP">
                     <div className="heartTitle">
                     <h1 className="iam">Hi i am candra</h1>
-                    <p className="iamp">i am a japanese language teacher based in Bali Indonesia </p>   
-                    <button style={{float:"right"}} className="btn btn-light">read More</button>
+                    <p className="iamp">i am a japanese language teacher based in Bali Indonesia </p> 
+
+                    <Link to="/about" style={{float:"right"}}  className="btn btn-light">read more</Link>
                     </div>
                 </div>
                 <div className="face">
