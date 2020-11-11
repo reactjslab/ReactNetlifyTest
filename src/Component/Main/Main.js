@@ -29,6 +29,7 @@ import Chandra from './chandra.jpg'
                    <a target="blank" href="https://www.facebook.com/candra.theywe/"> <i className="fa fa-facebook" style={{fontSize:"34px"}}></i></a>
                    <a target="blank" href="https://www.twitter.com/marazzicandra/"><i className="fa fa-instagram" style={{fontSize:"34px"}}></i></a>
                    <a target="blank" href="https://www.instagram.com/marazzicandra/"><i className="fa fa-twitter" style={{fontSize:"34px"}}></i></a>
+                   <a href="skype:chandra.marazzi?chat"><i className="fa fa-skype" style={{fontSize:"34px"}}></i></a>
                    <a href="mailto:candramarazzi@gmail.com"><i style={{fontSize:"34px"}} className="fa fa-envelope-o"></i></a>
                    </div>
                 <div className="name">

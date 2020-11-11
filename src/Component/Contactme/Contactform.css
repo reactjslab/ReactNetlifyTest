@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     min-height:90vh;
+    transform: all .3s ease-in;
 }
 .cform{
     height:60vh;

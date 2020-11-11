@@ -1,0 +1,12 @@
+.aboutdiv{
+    display: flex;
+    min-height:100vh;
+    background-color: whitesmoke;
+}
+.aboutCont{
+    display: flex;
+    margin-right: 10vw;
+    margin-left:10vw;
+    min-width: 70vw;
+    font-size:24px;
+}
