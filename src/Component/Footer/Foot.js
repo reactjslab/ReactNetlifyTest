@@ -21,7 +21,7 @@ export default function Foot() {
           <div className="col-6 col-md">
            <h4><i className="text-muted fas fa-phone-volume" style={{fontSize:"18px"}}></i>   Contact</h4>
             <ul className="list-unstyled text-small">
-              <li className="text-muted"><a href="tel:087-8600-60-500"></a>087-8600-60-500</li>
+              <li className="text-muted"><a href="tel:087-8600-60-500">087-8600-60-500</a></li>
               <li className="text-muted">candra.marazzi@gmail.com</li>
               <li><a className="text-muted" href="skype:chandra.marazzi?chat">Skype</a></li>
             </ul>
