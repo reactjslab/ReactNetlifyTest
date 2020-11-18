@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Main.css'
 import Header from './../Header/Header'
-import Footer from './../Footer/Footer'
+import Footermain from './../Footer/Footermain'
 import Chandra from './chandra.jpg'
  class Main extends React.Component {
     render() {
@@ -36,7 +36,7 @@ import Chandra from './chandra.jpg'
                 <h1 >Chandra devi</h1>
                 </div>
             </div>
-            <Footer/>
+            <Footermain/>
             </>
         )
     }
