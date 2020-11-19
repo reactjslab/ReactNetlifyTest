@@ -14,6 +14,7 @@ function Contactform() {
             if(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailref.current.value)){
                 formfunc({name:nameref.current.value,email:emailref.current.value, message:messageref.current.value})
                 flipfun(true)
+                console.log(formdata)
             }else{
                 errf(true) 
             }
