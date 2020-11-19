@@ -133,11 +133,11 @@
         padding-right:5vw;
     }
     .iam{
-        font-size:36px;
+        font-size:28px;
         padding-right:5vw;
     }
     .iamp{
-        font-size:24px;
+        font-size:18px;
         padding-right:5vw;
     }
   }
@@ -153,6 +153,7 @@
         align-items: center;
         
     }
+    
 
     .heartP{
         margin-left:5vw;
