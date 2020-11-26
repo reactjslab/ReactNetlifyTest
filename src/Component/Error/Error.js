@@ -1,12 +1,18 @@
 import React from 'react'
 import Header from './../Header/Header'
-import Footer from './../Footer/Footer'
-export default function Error() {
+import Footermain from './../Footer/Footermain'
+import Err404 from './Err404'
+
+export default function Error(props) {
+    React.useEffect(()=>{
+        document.title="Error 404 || Page does not exist"
+    })
+    
     return (
         <>
         <Header/>
-        <h1>Error</h1>
-        <Footer/>
+        <Err404 />
+        <Footermain/>
         </>
     )
 }

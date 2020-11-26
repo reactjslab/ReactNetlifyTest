@@ -1,11 +1,11 @@
 .footermain {
         display: grid;
-        background-color: whitesmoke;
+        background-color:#d3d7db;
         font-size: initial;
 }
 .footer{
     display:grid;
-    min-height:5vh;
+    min-height:3vh;
     grid-template-columns:1fr 1fr 1fr 1fr;
     align-content: center;
     grid-area: "e f g h";

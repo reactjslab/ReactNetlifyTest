@@ -1,0 +1,26 @@
+.mapboxc{
+    position: relative;;
+    height:400px;
+    width:100%;
+}
+.mapContainer {
+    position:absolute ;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;   
+}
+.mapboxgl-control-container{
+    position:absolute ;
+    bottom:0;
+    right:0;
+}
+.sidebarStyle{
+    position:absolute ;
+    top:0;
+    left:0;
+    color:black;
+    font-weight:400;
+    z-index:1000;
+
+}

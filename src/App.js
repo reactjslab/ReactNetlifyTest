@@ -26,7 +26,7 @@ componentDidMount(){
     <Route exact path='/' component={Main} />
     <Route exact path='/contact' component={Contact}/>
     <Route exact path='/about' component={About}/>
-    <Route component={Error}/>
+    <Route component={Error} statusCode={404}/>
     </Switch>
     </BrowserRouter>:
     <Preloader/>
