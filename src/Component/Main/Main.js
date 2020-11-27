@@ -5,6 +5,9 @@ import Header from './../Header/Header'
 import Footermain from './../Footer/Footermain'
 import Chandra from './chandra.jpg'
  class Main extends React.Component {
+     componentDidMount(){
+         document.title="Chandra Devi | Home Page"
+     }
     render() {
         return (
             <>
@@ -37,6 +40,7 @@ import Chandra from './chandra.jpg'
                 </div>
             </div>
             <Footermain/>
+
             </>
         )
     }

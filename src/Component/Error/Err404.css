@@ -1,0 +1,21 @@
+.errormain{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction:column ;
+}
+.errorimg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+.err404svg{
+    width:600px;
+}
+.errmsg{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color:whitesmoke;
+}

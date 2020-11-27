@@ -1,0 +1,43 @@
+.Cv{
+    background: whitesmoke;
+    width:100%;
+}
+
+.workexprence .workTitle{
+    font-family: roboto;
+    font-size:20px;
+    font-weight: 400;
+}
+.worklocation{
+    font-family: roboto;
+    font-size:15px;
+    font-weight:400;
+}
+.workCompany{
+    font-family: roboto;
+    font-size:16px;
+    font-weight:400;
+}
+.workHistory{
+    font-family: roboto;
+    font-size:18px;
+    font-weight:400;
+}
+.workdetail{
+    font-family: roboto;
+    font-size:20px;
+    font-weight:400;
+}
+
+
+.iv {
+	font-size: 18px;
+	margin-right: 20px;
+	line-height: inherit;
+}
+
+.cvline {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}

@@ -23,7 +23,7 @@ export default function Foot() {
             <ul className="list-unstyled text-small">
               <li className="text-muted"><a href="tel:087-8600-60-500">087-8600-60-500</a></li>
               <li className="text-muted">candra.marazzi@gmail.com</li>
-              <li><a className="text-muted" href="skype:chandra.marazzi?chat">Skype</a></li>
+              <li><a className="text-muted" href="skype:candra.marazzi?chat">Skype</a></li>
             </ul>
           </div>
 
