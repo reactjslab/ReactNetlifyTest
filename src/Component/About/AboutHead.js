@@ -20,7 +20,7 @@ export default function AboutHead() {
                         Japnese Language school and also i teach private classes to people who 
                         are interested in working in japan or just learning japanese language.
                         I have a Diploma in japanese Language and culture from JAPAN FOUNDATION JAKARTA
-                        in Jakarat Indonesia and ASSOCIATION FOR OVERSEAS TECHNICAL CORPORATION AND SUSTAINIBLE 
+                        in Jakarta Indonesia and ASSOCIATION FOR OVERSEAS TECHNICAL CORPORATION AND SUSTAINIBLE 
                         PATERNERSHIP and  JAPAN INTERNATIONAL CORPORATION OF WELFARE SERVICE in Toyota City Aichi Perfecture Japan.
                         I have spent  four and half years in japan and i love japan ,its culture and language.
                         <br/>
