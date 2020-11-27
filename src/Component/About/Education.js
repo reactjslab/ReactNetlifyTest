@@ -43,8 +43,7 @@ export default function Education() {
                     <div className="workCompany">Health Polytechnics Department of Nursing</div></div>
                     
                 </div>
-            <div className="border-top m-3"></div>
-
+            
             </div>
             <div className='col-md-2'></div>
             

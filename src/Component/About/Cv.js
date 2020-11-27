@@ -49,8 +49,7 @@ export default function Cv() {
                     <div className="workCompany">Darma Usada Clinic</div></div>
                    
                 </div>
-            <div className="border-top m-3"></div>
-
+           
             </div>
             <div className='col-md-2'></div>
             
