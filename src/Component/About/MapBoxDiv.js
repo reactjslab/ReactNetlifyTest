@@ -12,7 +12,7 @@ class MapBoxDiv extends React.Component {
         this.state = {
         lng: 115.3233,
         lat: -8.5366,
-        zoom: 8
+        zoom: 12
         };
     }
     componentDidMount() {    
