@@ -10,9 +10,9 @@ class MapBoxDiv extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-        lng: 115.171006,
-        lat: -8.335590,
-        zoom: 12
+            lng: 115.286079,
+            lat: -8.565621,
+            zoom: 14
         };
     }
     componentDidMount() {    
@@ -23,7 +23,7 @@ class MapBoxDiv extends React.Component {
         zoom: this.state.zoom
         })
         map.on('load', () => {
-            new mapboxgl.Marker().setLngLat([115.3233, -8.5366]).addTo(map)
+            new mapboxgl.Marker().setLngLat([115.286079, -8.565621]).addTo(map)
          })
         map.on('move', () => {
         this.setState({
