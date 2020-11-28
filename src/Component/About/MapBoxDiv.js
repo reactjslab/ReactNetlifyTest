@@ -10,8 +10,8 @@ class MapBoxDiv extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-        lng: 115.3233,
-        lat: -8.5366,
+        lng: 115.171006,
+        lat: -8.335590,
         zoom: 12
         };
     }
@@ -27,8 +27,8 @@ class MapBoxDiv extends React.Component {
          })
         map.on('move', () => {
         this.setState({
-        lng: map.getCenter().lng.toFixed(4),
-        lat: map.getCenter().lat.toFixed(4),
+        lng: map.getCenter().lng.toFixed(6),
+        lat: map.getCenter().lat.toFixed(6),
         zoom: map.getZoom().toFixed(2)
     });        
         }); 
