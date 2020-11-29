@@ -16,39 +16,84 @@
 .fullimg{
     margin-left: -20px;
 }
-.nametitle{
-    font-family:'Dancing Script', cursive;
-    grid-area: abc;
-    font-size:30px;
-    justify-content: center;
-    color: #5870f0;
+.nametitle {
+	font-family: 'Dancing Script', cursive;
+	grid-area: abc;
+	font-size: 35px;
+	justify-content: center;
+	color: #5870f0;
 }
-.bodydesc{
-    grid-area: bcd;
-    font-family: 'Lato', sans-serif;
-    font-size:18px;
-    font-weight: 700;
-    
+.bodydesc {
+	grid-area: bcd;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
 }
 @media screen and (max-width: 450px) {
     .profileimg{
-        width:500px;
+        height:350px;
         background-size: cover;
+        
     }
     .bodydesc{
         grid-area: bcd;
         font-family: 'Lato', sans-serif;
-        font-size:18px;
-        font-weight: 700;
-        display:flex;
+        font-size:16px;
+        font-weight: 500;
+        
         margin-bottom:30px;
     }
     .fullimg{
         margin-left: 0;
     }
+    .desc {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .workexprence .workTitle {
+        font-family: 'roboto';
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .workdetail {
+        font-family: 'roboto';
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .workHistory {
+        font-family: 'roboto';
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .workCompany {
+        font-family: 'roboto';
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .bodydesc {
+        grid-area: bcd;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .nametitle {
+        font-family: 'Dancing Script', cursive;
+        grid-area: abc;
+        font-size: 35px;
+        justify-content: center;
+        color: #5870f0;
+    }
 
 }
-@media screen and (max-width: 1200px) and (min-width: 990px)  {
+/* @media screen and (max-width: 1200px) and (min-width: 990px)  {
     .bodydesc{
         grid-area: bcd;
         font-family: 'Lato', sans-serif;
@@ -57,4 +102,4 @@
         display:flex;
         margin-bottom:30px;
     }
-}
+} */
