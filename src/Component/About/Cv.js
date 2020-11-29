@@ -3,8 +3,8 @@ import './CV.css'
 export default function Cv() {
     return (
         <div className='row'>
-            <div className='col-md-2'></div>
-            <div className='col-md-8 Cv'>
+            <div className='col-md-1'></div>
+            <div className='col-md-10 Cv'>
                 <h1 className="d-flex flex-column align-items-center m-3">Work Experience</h1>
             <div className="workexprence p-3 m-3">
                     <div className="cvline"><i className="iv fas fa-user-alt "></i> 
@@ -32,7 +32,7 @@ export default function Cv() {
                     <div className="worklocation">Fukouka Japan</div></div>
                     
                     <div className="cvline"><i className="iv far fa-hospital"></i>
-                    <div className="workCompany">Special Nursing Home for Elderly ,Jousheon</div></div>
+                    <div className="workCompany">Special Nursing Home for Elderly , Joushoen</div></div>
                     
                 </div>
             <div className="border-top m-3"></div>
@@ -51,7 +51,7 @@ export default function Cv() {
                 </div>
            
             </div>
-            <div className='col-md-2'></div>
+            <div className='col-md-1'></div>
             
         </div>
     )

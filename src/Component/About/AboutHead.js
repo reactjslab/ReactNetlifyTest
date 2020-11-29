@@ -14,17 +14,17 @@ export default function AboutHead() {
                 <div className="descdetail col-md">
                     <div className="nametitle d-flex align-items-center flex-column ">ni made candra devi</div>
                     <div className="bodydesc mb-3">
-                        Hello there i am candra devi. i am from Bali Indonesia.
-                        i am a nurse by profession and a Japanese Language Teacher 
-                        based in bali .i teach japanese Language to Nurseing students at Hurry 
-                        Japnese Language school and also i teach private classes to people who 
-                        are interested in working in japan or just learning japanese language.
-                        I have a Diploma in japanese Language and culture from JAPAN FOUNDATION JAKARTA
-                        in Jakarta Indonesia and ASSOCIATION FOR OVERSEAS TECHNICAL CORPORATION AND SUSTAINIBLE 
-                        PATERNERSHIP and  JAPAN INTERNATIONAL CORPORATION OF WELFARE SERVICE in Toyota City Aichi Perfecture Japan.
-                        I have spent  four and half years in japan and i love japan ,its culture and language.
+                       <p>Hello there i am candra devi. i am from Bali Indonesia.
+                        I am a nurse by profession and a Japanese Language Teacher based in Bali. 
+                        I teach the Japanese Language to a nursing student at Hurry 
+                        Japanese Language school and also I teach private classes to people who are 
+                        interested in working in japan or just learning the Japanese language.</p>
+                        <p>I have a Diploma in Japanese Language and culture from JAPAN FOUNDATION JAKARTA in Jakarta 
+                        Indonesia and ASSOCIATION FOR OVERSEAS TECHNICAL CORPORATION AND SUSTAINABLE PARTNERSHIP and  
+                        JAPAN INTERNATIONAL CORPORATION OF WELFARE SERVICE in Toyota City Aichi Prefecture Japan.</p>
+                        <p>I have spent four and a half years in Japan and I love Japan, its culture, and language.</p>
                         <br/>
-                        Feel free contact me.
+                        <p> Feel free contact me.</p>
                         
                     </div>
                 </div>

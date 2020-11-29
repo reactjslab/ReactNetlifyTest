@@ -4,27 +4,24 @@
     text-transform: capitalize;
     color:#5870f0;
 }
-.desc{
-    font-family: 'Lato', sans-serif;
+.descT{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 400;
 }
-@media screen  and (max-width: 600px) {
-    .aboutmetitle{
-        font-family: 'Dancing Script', cursive;
-        font-size: 35px;
-        text-transform: capitalize;
-        color:#5870f0;
-    }
-
-}
-@media screen and (max-width: 360px) {
-    .aboutmetitle{
+@media screen  and (max-width: 500px) {
+    .aboutmetitle {
         font-family: 'Dancing Script', cursive;
         font-size: 32px;
         text-transform: capitalize;
-        color:#5870f0;
+        color: #5870f0;
+    }
+    .descT {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 400;
     }
 
 }

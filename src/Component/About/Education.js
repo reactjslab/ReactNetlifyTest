@@ -3,8 +3,8 @@ import React from 'react'
 export default function Education() {
     return (
         <div className='row mt-4'>
-            <div className='col-md-2'></div>
-            <div className='col-md-8 Cv'>
+            <div className='col-md-1'></div>
+            <div className='col-md-10 Cv'>
                 <h1 className="d-flex flex-column align-items-center m-3">Education</h1>
                 <div className="workexprence p-3 m-3">
                     <div className="cvline"><i className="iv fas fa-user-alt "></i> 
@@ -15,7 +15,7 @@ export default function Education() {
                     <div className="cvline"><i className="iv far fa-calendar-alt"></i>
                     <div className="workHistory">june/2015-december/2015</div></div>
                     <div className="cvline"><i className="iv far fa-hospital"></i>
-                    <div className="workCompany">HIDA Chuba Kenshu Center </div></div>
+                    <div className="workCompany">HIDA Chubu Kenshu Center </div></div>
                     
                 </div>
             <div className="workexprence p-3 m-3">
@@ -45,7 +45,7 @@ export default function Education() {
                 </div>
             
             </div>
-            <div className='col-md-2'></div>
+            <div className='col-md-1'></div>
             
         </div>
     )
