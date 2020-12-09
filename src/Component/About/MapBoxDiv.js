@@ -3,9 +3,10 @@ import mapboxgl from 'mapbox-gl';
 
 import dotenv from 'dotenv'
 import './MapBox.css'
-
 dotenv.config()
-mapboxgl.accessToken =process.env.REACT_APP_MapBoxenv
+
+mapboxgl.accessToken = process.env.REACT_APP_MapBoxenv
+
 class MapBoxDiv extends React.Component {
     constructor(props) {
         super(props);
